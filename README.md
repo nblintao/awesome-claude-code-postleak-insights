@@ -22,8 +22,9 @@ The focus here is narrower: collecting the most useful post-leak materials that 
 
 ## Analysis
 
-- [Kuberwastaken / claude-code](https://github.com/Kuberwastaken/claude-code) - The most detailed post-leak breakdown so far, covering the 40+ tool system, 46K-line Query Engine, multi-agent swarm orchestration, and unreleased features (BUDDY, KAIROS, ULTRAPLAN, Coordinator Mode).
-- [Claude Code’s Entire Source Code Was Just Leaked via npm Source Maps — Here’s What’s Inside](https://dev.to/gabrielanhaia/claude-codes-entire-source-code-was-just-leaked-via-npm-source-maps-heres-whats-inside-cjo) - A readable first-wave summary of the sourcemap exposure and key findings. Note: the author promotes his own product (Hermes IDE) throughout.
+- [Claude Code's Entire Source Code Got Leaked via a Sourcemap in npm, Let's Talk About it](https://kuber.studio/blog/AI/Claude-Code%27s-Entire-Source-Code-Got-Leaked-via-a-Sourcemap-in-npm%2C-Let%27s-Talk-About-it) ([GitHub repo](https://github.com/Kuberwastaken/claude-code)) - The most detailed post-leak breakdown so far, covering the 40+ tool system, 46K-line Query Engine, multi-agent swarm orchestration, and unreleased features (BUDDY, KAIROS, ULTRAPLAN, Coordinator Mode).
+- [Claude Code’s Entire Source Code Was Just Leaked via npm Source Maps — Here’s What’s Inside](https://dev.to/gabrielanhaia/claude-codes-entire-source-code-was-just-leaked-via-npm-source-maps-heres-whats-inside-cjo) - A developer-oriented architectural overview covering five major subsystems (tool system, query engine, multi-agent orchestration, IDE bridge, persistent memory), tech stack choices (Bun, React+Ink, Zod v4), and build pipeline security lessons. More descriptive than code-level.
+- [Claude Code source has been available for 13 months, and nothing happened — why?](https://thehuman2ai.com/blog/claude-code-source-leak) - A timeline piece tracing both leak incidents (2025-02 and 2026-03) and arguing why source visibility doesn’t threaten the product.
 
 ## License
 
