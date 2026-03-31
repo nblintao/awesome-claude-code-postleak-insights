@@ -26,6 +26,10 @@ The focus here is narrower: collecting the most useful post-leak materials that 
 - [Claude Code’s Entire Source Code Was Just Leaked via npm Source Maps — Here’s What’s Inside](https://dev.to/gabrielanhaia/claude-codes-entire-source-code-was-just-leaked-via-npm-source-maps-heres-whats-inside-cjo) - A developer-oriented architectural overview covering five major subsystems (tool system, query engine, multi-agent orchestration, IDE bridge, persistent memory), tech stack choices (Bun, React+Ink, Zod v4), and build pipeline security lessons. More descriptive than code-level.
 - [Claude Code source has been available for 13 months, and nothing happened — why?](https://thehuman2ai.com/blog/claude-code-source-leak) - A timeline piece tracing both leak incidents (2025-02 and 2026-03) and arguing why source visibility doesn’t threaten the product.
 
+## More
+
+Looking for broader coverage? See [MORE.md](MORE.md) for additional articles, news reports, and source mirrors that didn't make the curated list but may still be useful for broader context.
+
 ## License
 
 MIT for original content in this repository.  
