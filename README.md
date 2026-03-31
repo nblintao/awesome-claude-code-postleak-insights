@@ -1,8 +1,8 @@
 # Awesome Claude Code Post-Leak Insights
 
-A curated list of high-signal analyses, design notes, and discussions emerging from the Claude Code leak (2026-03-31).
+A curated list of high-signal analyses, design notes, and discussions emerging from the Claude Code npm sourcemap leak of 2026-03-31.
 
-On 2026-03-31, security researcher [Chaofan Shou](https://x.com/Fried_rice/status/2038894956459290963) discovered that Anthropic shipped a source map file in the Claude Code npm package, exposing the full unobfuscated TypeScript source (~1,900 files, 512K+ lines).
+Security researcher [Chaofan Shou](https://x.com/Fried_rice/status/2038894956459290963) discovered that Anthropic shipped a source map file in the Claude Code npm package, exposing the full unobfuscated TypeScript source (~1,900 files, 512K+ lines).
 
 This is **not** a general Claude Code resource list, and it is **not** a mirror of leaked proprietary code.  
 The focus here is narrower: collecting the most useful post-leak materials that help readers understand Claude Code’s architecture, safety model, workflow design, and extension surface.
