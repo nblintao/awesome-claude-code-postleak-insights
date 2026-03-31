@@ -9,11 +9,6 @@ The focus here is narrower: collecting the most useful post-leak materials that 
 
 > This event is still unfolding — the list is being actively maintained. If you’ve seen a high-quality post-leak analysis that isn’t listed here, PRs and Issues are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-## Contents
-
-- [Discussions](#discussions)
-- [Analysis](#analysis)
-
 ## Discussions
 
 - [Hacker News thread](https://news.ycombinator.com/item?id=47584540) - Highlights include regex-based sentiment detection instead of using their own models, anti-distillation defenses in API requests, and a code quality teardown of `print.ts`.
