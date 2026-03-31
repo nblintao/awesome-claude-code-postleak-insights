@@ -16,5 +16,6 @@ Additional post-leak articles, reports, and discussions that didn't make the cur
 
 ## Source Mirrors and Research Archives
 
-- [instructkr / claude-code](https://github.com/instructkr/claude-code) — An educational archive maintained by a university student for studying supply-chain exposure and agentic tooling architecture.
-- [leeyeel / claude-code-sourcemap](https://github.com/leeyeel/claude-code-sourcemap) — Raw source code extracted from the source map.
+- [nirholas / claude-code](https://github.com/nirholas/claude-code) — The most complete mirror of the 2026-03 leak. Unmodified source extracted from the npm source map.
+- [leeyeel / claude-code-sourcemap](https://github.com/leeyeel/claude-code-sourcemap) — Raw source code from the earlier 2025-02 leak.
+- [instructkr / claw-code](https://github.com/instructkr/claw-code) — Originally a leak archive, now repurposed as a Rust rewrite project ("Better Harness Tools"). No longer a pure source mirror.
