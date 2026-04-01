@@ -13,9 +13,3 @@ Additional post-leak articles, reports, and discussions that didn't make the cur
 - [Claude Code Source Code Leaked](https://www.lowcode.agency/blog/claude-code-source-code-leaked) — A general-audience explainer focused on clarifying the leak's boundaries: CLI tool code exposed vs. model weights not exposed vs. API infrastructure not exposed, with a basic copyright risk analysis.
 - [BREAKING: Anthropic just leaked Claude Code's entire source code](https://www.the-ai-corner.com/p/claude-code-source-code-leaked-2026) — Paywalled. The free portion lists 7 fully-built but unreleased capabilities (background agents, multi-agent orchestration, cron scheduling, voice mode, Playwright browser automation, etc.). The paid section claims to cover 44 feature flags, 20+ unshipped features by category, leaked system prompts, and 187 spinner verbs.
 - [The Claude Code leak is bigger than a code leak](https://medium.com/@hendrik-thurau-enterprises/the-claude-code-leak-is-bigger-than-a-code-leak) — A strategic opinion piece arguing that the leak exposed product thinking, not just code. The real AI moat lives in systems design (memory, orchestration, permissions, tool use) rather than the model layer, and competitors can now compress months of trial-and-error.
-
-## Source Mirrors and Research Archives
-
-- [nirholas / claude-code](https://github.com/nirholas/claude-code) — The most complete mirror of the 2026-03 leak. Unmodified source extracted from the npm source map.
-- [leeyeel / claude-code-sourcemap](https://github.com/leeyeel/claude-code-sourcemap) — Raw source code from the earlier 2025-02 leak.
-- [instructkr / claw-code](https://github.com/instructkr/claw-code) — Originally a leak archive, now repurposed as a Rust rewrite project ("Better Harness Tools"). No longer a pure source mirror.
