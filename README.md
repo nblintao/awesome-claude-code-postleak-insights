@@ -25,7 +25,7 @@ The focus here is narrower: collecting the most useful post-leak materials that 
 
 ## More
 
-Looking for broader coverage? See [MORE.md](MORE.md) for additional articles, news reports, and source mirrors that didn't make the curated list but may still be useful for broader context.
+Looking for broader coverage? See [MORE.md](MORE.md) for additional articles and news report that didn't make the curated list but may still be useful for broader context.
 
 ## License
 
