@@ -18,13 +18,12 @@ The focus here is narrower: collecting the most useful post-leak materials that 
 ## Analysis
 - [Claude Code’s Entire Source Code Was Just Leaked via npm Source Maps — Here’s What’s Inside](https://dev.to/gabrielanhaia/claude-codes-entire-source-code-was-just-leaked-via-npm-source-maps-heres-whats-inside-cjo) — Focus: Production Architecture & Tech Stack
     - A professional architectural audit from a developer's perspective. It deconstructs the current production-grade system, detailing five major subsystems: the Tool System, Query Engine, Multi-Agent Orchestration, IDE Bridge, and Persistent Memory. It highlights the engineering rationale behind choosing Bun, React+Ink, and Zod v4, while offering critical security lessons on build pipeline vulnerabilities.
-
 - [Claude Code's Entire Source Code Got Leaked via a Sourcemap in npm, Let's Talk About it](https://kuber.studio/blog/AI/Claude-Code%27s-Entire-Source-Code-Got-Leaked-via-a-Sourcemap-in-npm%2C-Let%27s-Talk-About-it) — Focus: Future Roadmap & Hidden Features
     - A "treasure hunt" style deep-dive into the codebase's hidden secrets. This post prioritizes unreleased features and internal lore, covering the BUDDY Tamagotchi-style pet system, the KAIROS "always-on" proactive assistant, and the ULTRAPLAN 30-minute remote orchestration mode. It also uncovers Anthropic’s internal "Undercover Mode" and model codenames (Tengu, Fennec). Essential reading for anyone wanting to see where the product is headed next.
-
+- [How an AI Reads the Web: A Deep Dive into Claude Code’s WebFetchTool](https://medium.com/@nblintao/how-an-ai-reads-the-web-a-deep-dive-into-claude-codes-webfetchtool-0abee4446343) — Focus: WebFetchTool Design
+    - The first post-leak analysis to deep-dive into a single subsystem. Traces how WebFetchTool balances security (domain whitelisting, blacklist pre-checks, redirect sandboxing), performance (Haiku-based summarization, lazy-loaded Turndown), and copyright compliance across its 1,173-line implementation.
 - [Claude Code Source Leak: Production AI Architecture Patterns from 512,000 Lines](https://discuss.huggingface.co/t/claude-code-source-leak-production-ai-architecture-patterns-from-512-000-lines/174846) — Focus: Context Compression & AutoDream
     - A concise, structured breakdown of two architecture patterns not covered elsewhere: the three-layer Context Compression pipeline (MicroCompact → AutoCompact → Full Compact) and the four-phase AutoDream memory consolidation flow. Brief but information-dense.
-
 - [Claude Code source has been available for 13 months, and nothing happened — why?](https://thehuman2ai.com/blog/claude-code-source-leak) - A timeline piece tracing both leak incidents (2025-02 and 2026-03) and arguing why source visibility doesn’t threaten the product.
 
 ## More
