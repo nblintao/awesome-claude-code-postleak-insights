@@ -29,6 +29,14 @@ The focus here is narrower: collecting the most useful post-leak materials that 
 
 Looking for broader coverage? See [MORE.md](MORE.md) for additional articles and news report that didn't make the curated list but may still be useful for broader context.
 
+
+## Related Projects
+
+Open-source projects that extend Claude Code's capabilities.
+
+- [Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain) - Self-evolving AI coding intelligence with infinite memory (TurboQuant), genetic algorithm self-evolution, predictive bug detection, PageRank knowledge graphs, swarm intelligence, and adversarial defense. TypeScript/Node.js. MIT.
+- [Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge) - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline. Visual dashboard, one-click install, skill doctor, auto-update. TypeScript/Node.js. MIT.
+
 ## License
 
 MIT for original content in this repository.  
